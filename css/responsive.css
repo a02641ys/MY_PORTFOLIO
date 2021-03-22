@@ -1,4 +1,11 @@
 @media screen and (max-width:719px) { 
+
+ html,
+ body {
+ overflow-x: hidden!important;
+ overflow-y: scroll;
+ -webkit-overflow-scrolling: touch;
+ }
   .menu {
     width: 70%;
     height: 100vh;
